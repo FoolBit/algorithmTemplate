@@ -16,7 +16,7 @@ void mergeSort(int *a, int l, int r)
 
     while(i<=mid && j<=r)
     {
-        if(a[i]<a[j])
+        if(a[i]<=a[j])
         {
             tmp[k++] = a[i++];
         }
